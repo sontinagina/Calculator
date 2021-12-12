@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <h1>Calculator</h1>
+    <script type="text/javascript" src="App.js"></script>
+</head>
+<body>
+  <!-- <script type="text/javascript" src="App.js"></script> -->
+  <button value="0" id="block0" onclick="display('0')">0</button>
+  <button value="1" id="block1" onclick="display('1')">1</button>
+  <button value="2" id="block2" onclick="display('2')">2</button>
+  <button value="3" id="block3" onclick="display('3')">3</button>
+  <button value="4" id="block4" onclick="display('4')">4</button><br/>
+  <button value="5" id="block5" onclick="display('5')">5</button>
+  <button value="6" id="block6" onclick="display('6')">6</button>
+  <button value="7" id="block7" onclick="display('7')">7</button>
+  <button value="8" id="block8" onclick="display('8')">8</button>
+  <button value="9" id="block9" onclick="display('9')">9</button><br/>
+  <button value="+" id="plus" onclick="display('+')">+</button>
+  <button value="-" id="minus" onclick="display('-')">-</button>
+  <button value="*" id="multiply" onclick="display('*')">*</button>
+  <button value="/" id="divide" onclick="display('/')">/</button>
+  <button value="." id="dot" onclick="display('.')">.</button><br/>
+  <button value="=" id="ans" onclick="solve()">=</button>
+  <button value="C" id="clr" onclick="clr()">C</button>
+  <input type="text" id="input"/>
+</body>
